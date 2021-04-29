@@ -1,0 +1,342 @@
+
+html{
+    font-size: 10px;
+}
+
+nav{
+    display:flex;
+    background:linear-gradient(to top, black,rgb(68,68,68));
+    width: auto;
+    height:auto;
+    flex-wrap:wrap;
+}
+nav a{
+    text-decoration: none;
+    text-align: center;
+    padding:10px;
+    margin:10px 40px;
+    font-size:2rem;
+    font-family:  'Gill Sans';
+}
+body{
+    font-family:  'Gill Sans';
+}
+h1{
+    font-size: 8rem;
+}
+h2{
+    font-size: 3rem;
+    text-align: center;
+}
+h3{
+    font-size: 2.5rem;
+}
+h4{
+    font-size: 1.8rem;
+}
+h5{
+    font-size: 1.5rem;
+    font-weight: 100;
+}
+h6{
+    font-size: 1.2rem;
+}
+
+p{
+    font-size: 1rem;
+}
+
+.carousel-caption{
+    text-align: left;
+}
+.carousel-caption h1{
+    font-weight: 300;
+}
+.carousel-caption h3{
+    font-weight: 100;
+}
+.carousel-caption p{
+    padding: 10px 0px 0px 0px;
+}
+
+article{
+    width:100%;
+    margin-top:40px;
+    margin-bottom:40px;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    color:white;   
+}
+.image{
+    width:650px;
+    height:350px;
+    margin:20px;
+    text-align:center;
+    position: relative;
+}
+.image h4{
+    margin:250px 0px 0px 0px;
+}
+.image h3{
+    font-weight: 100;
+}
+.image a{
+    color:white;
+    font-size: 1.2rem;
+}
+#im01{
+   background-image: url(X7.png); background-size: 100% 100%;
+}
+#im02{
+    background-image: url(X5.jpg);background-size: 100% 100%;
+}
+#im03{
+    background-image: url(THE5.jpg);background-size: 100% 100%;
+}
+#im04{
+    background-image: url(THE8.jpg);background-size: 100% 100%;
+}
+
+address{
+    width:100%;
+    margin:10px;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+}
+
+.icon{
+    width:300px;
+    height:250px;
+    padding:30px;
+    text-align: center;
+}
+.icon h4{
+    font-weight:600;
+}
+.icon a{
+    font-size:14px;
+    color: black;
+}
+.footer img{
+    margin-left: 60px;
+}
+.footer{
+    background-color: whitesmoke;
+    padding:30px;
+    display:flex;
+    flex-wrap:wrap;
+}
+.footer a{
+    font-size: 1.4rem;
+    color:black;
+    margin-left: 60px;
+    margin-bottom: 20px;
+    text-align: center;
+    text-decoration: none;
+}
+.footer a:hover{
+    color:darkgrey;
+}
+
+.about{
+    width:100%;
+    height:380px;
+    background-image: url(aboutus.jpg);background-size: 100% 100%;
+    padding:60px;
+    margin-top:50px;
+    justify-content:center;
+    text-align:center;
+    position:relative; 
+}
+
+.number{
+    justify-content: center;
+    text-align: center;
+    margin:40px 100px; 
+}
+
+abbr{
+    width:80%;
+    margin:0 10%;
+    flex-wrap:wrap;
+    display:flex;
+    position:relative;
+    justify-content:center;
+    text-align:center;
+}
+.good{
+    width:450px;
+    height:200px;
+    margin:20px 50px;
+    text-align:center;
+}
+#year{
+    padding:10px;
+    background-image: url(years.jpg);background-size: 200px 100px;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+#location{
+    background-image: url(locations.jpg);background-size: 200px 100px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#continent{
+    background-image: url(continents.jpg);background-size: 200px 100px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#first{
+    background-image: url(lightbulb.jpg);background-size: 200px 100px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.corporate{
+    width:80%;
+    margin:0 10%;
+    text-align: center;
+    justify-content:center;
+    flex-wrap:wrap;
+    display:flex;
+}
+.social{
+    width:500px;
+    height:auto;
+    margin:30px;
+    padding:60px;
+    text-align: left;
+}
+.photo img{
+    width:500px;
+    height:300px;
+    margin:30px;
+}
+.social h5{
+    font-weight: 100;
+}
+
+main{
+    background-image: url(bmw.jpg); background-size: 100% 900px;
+    background-repeat: no-repeat;
+    display:flex;
+    flex-wrap:wrap;
+    position: relative;
+    justify-content: center;
+    margin-top:50px;
+}
+.login{
+    background-color: white;
+    width:400px;
+    height:600px;
+    margin:100px 0px 200px 0px;
+    padding:30px;
+}
+.login ul{
+    padding:0 50px 0 50px;
+}
+
+input[type="email"]{
+    width:340px;
+    height:40px;
+}
+input[type="password"]{
+    width:340px;
+    height:40px;
+}
+input[type="submit"]{
+    background-color: royalblue;
+    color:white;
+    border-style:none;
+    font-size: 1.2rem;
+    margin:10px 30px;
+    padding:10px 20px;
+}
+.line a{
+    font-size: 1.2rem;
+    font-weight:100;
+    padding:15px;
+    text-decoration: underline;
+}
+
+
+aside{
+    background-color: black;
+}
+
+.all{
+    height:auto;
+    padding:70px;
+    color:rgb(218,218,216);
+
+}
+.all a{
+    color:rgb(218,218,216);
+
+    font-size:25px;
+    padding:10px 50px 10px 0px;
+    text-decoration: none;
+}
+.all a:hover{
+    color:white;
+    text-decoration: underline;
+}
+.buy{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    position: relative;
+    margin:50px;
+    width:auto;
+    height:auto;
+}
+.series{
+    float:left;
+    width:60%;
+    height:auto
+}
+.series img{
+    
+    width:100%;
+    height:auto;
+
+}
+.vehicle{
+    float:right;
+    width:40%;
+    height:auto;
+    padding:40px;
+
+}
+.vehicle h2{
+    font-size: 3.5rem;
+    text-align: left;
+    font-weight:100;
+}
+.vehicle h3{
+    font-size: 2rem;
+    font-weight:100;
+    line-height: 30px;
+}
+.vehicle h4{
+    font-weight:100;
+}
+.vehicle a{
+    text-decoration: none;
+    color:white;
+    width:170px;
+    height:60px;
+    padding:15px 35px;
+    font-size:1.7rem;
+    background-color:royalblue;
+}
+#white{
+    background-color: white;
+}
+#gray{
+    background-color:whitesmoke;
+}
+
